@@ -1,0 +1,46 @@
+{
+  "name": "d-pickers",
+  "version": "0.5.0",
+  "description": "Vue date-picker for vue 3.*",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "serve": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreyZlobin/d-picker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AndreyZlobin/d-picker/issues"
+  },
+  "homepage": "https://github.com/AndreyZlobin/d-picker#readme",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "vue": "^3.2.6"
+  },
+  "keywords": [
+    "vue 3.*",
+    "vue-picker",
+    "vue-datepicker",
+    "typeScript",
+    "javaScript"
+  ],
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.6.1",
+    "@vue/compiler-sfc": "^3.2.6",
+    "typescript": "^4.3.2",
+    "vite": "^2.5.4",
+    "vue-tsc": "^0.2.2",
+    "@typescript-eslint/eslint-plugin": "^4.30.0",
+    "@typescript-eslint/parser": "^4.30.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.1",
+    "eslint-plugin-vue": "^7.17.0",
+    "prettier": "2.3.2"
+  }
+}
